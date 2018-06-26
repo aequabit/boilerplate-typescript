@@ -11,12 +11,10 @@
         "typescript": "^2.7.2"
     },
     "dependencies": {
-        "moment": "^2.21.0",
-        "winston": "^3.0.0-rc3"
+        "moment": "^2.21.0"
     },
     "scripts": {
         "start": "nodemon --watch src --exec ts-node src/index.ts",
-        "test": "nodemon --watch src --exec ts-node src/test.ts",
         "build": "npm run lint && tsc",
         "lint": "tslint -c tslint.json -p tsconfig.json",
         "serve": "node dist/index.js"

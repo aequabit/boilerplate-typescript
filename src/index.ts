@@ -1,5 +1,5 @@
-import Logger from './modules/Logger';
+import Logger from './lib/Logger';
 
-(async (): Promise<void> => {
-    Logger.info('TypeScript Boilerplate');
+(async () => {
+    Logger.info('app', 'TypeScript Boilerplate');
 })();
